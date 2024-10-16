@@ -1,0 +1,13 @@
+#btn{
+  margin-bottom: 5rem;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #eee;
+  color: black; 
+  height: 100vh;
+  align-items: center;
+}

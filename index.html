@@ -4,19 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desmos graphing calculator embed</title>
+  <title>Get Information on StarWars characters</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
+  <h1>Get a random starwars character</h1>
   <section class="userInput">
-    <label for="equation">Enter an equation for a curve</label>
-    <input type="equation" name="equation" id="equation">
-    <button id="btn">SHOW GRAPH</button>
+    <label for="numberInput"></label>
+    <button id="btn">get character</button>
   </section>
-
-  <div id="calculator" style="width: 600px; height: 400px;"></div>
-  <script src="https://www.desmos.com/api/v1.9/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+  <section class="character"></section>
   <script src="./index.js"></script>
 </body>
 
